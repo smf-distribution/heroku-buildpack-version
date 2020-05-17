@@ -17,7 +17,7 @@ So, let's capture the information during slug compilation. Heroku provides the [
 
 First thing, add the buildpack to your app:
 
-	$ heroku buildpacks:add https://github.com/ianpurvis/heroku-buildpack-version
+	$ heroku buildpacks:add https://github.com/smf-distribution/heroku-buildpack-version
 
 During your next deployment, the buildpack will generate the environment configuration script:
 
@@ -47,5 +47,3 @@ In dev environments, scripting `git rev-parse` is still probably the most conven
 
 ## License
 The pack is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-[![https://purvisresearch.com](logo.svg)](https://purvisresearch.com)
